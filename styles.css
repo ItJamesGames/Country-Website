@@ -1,0 +1,28 @@
+h1 {
+    color: gold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.traveller {
+    list-style: none;
+    padding-left: 0;
+    border-style: dashed;
+    width: 50vw;
+    margin: auto;
+    text-align: center;
+}
+
+.traveller>li {
+    display: inline-block;
+}
+
+.traveller>li>a {
+
+    text-decoration: none;
+    color: chocolate;
+
+}
+
+.traveller>li>a:hover{
+    background-color: aqua;
+}
